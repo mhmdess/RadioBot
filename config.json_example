@@ -1,4 +1,5 @@
 {
-  "token": "1111AAAA",
+  "discordToken": "1111AAAA",
+  "discordPrefix": "=",
   "youtubeToken": "1111BBBB"
 }

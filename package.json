@@ -4,16 +4,29 @@
   "description": "A music discord bot",
   "main": "radio.js",
   "scripts": {
+    "start": "node radio.js",
+    "lint": "eslint --ext js ./lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "github:discordjs/discord.js",
+    "discord.js": "12.5.1",
+    "@discordjs/opus": "^0.3.2",
     "ffmpeg": "0.0.4",
     "googleapis": "^46.0.0",
-    "node-opus": "^0.3.3",
     "winston": "^3.2.1",
-    "ytdl-core": "^1.0.5"
+    "ytdl-core": "^4.5.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-prettier": "^3.2.0",
+    "jest": "^26.1.0",
+    "prettier": "2.2.1"
   }
 }
