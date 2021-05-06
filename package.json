@@ -11,12 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "12.5.1",
     "@discordjs/opus": "^0.3.2",
+    "discord.js": "12.5.1",
     "ffmpeg": "0.0.4",
     "googleapis": "^46.0.0",
     "winston": "^3.2.1",
-    "ytdl-core": "^4.5.0"
+    "ytdl-core": "^4.7.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
