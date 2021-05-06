@@ -15,6 +15,7 @@ const {
   help,
 } = require('./lib/commands');
 
+// eslint-disable-next-line import/no-unresolved
 const { discordToken, discordPrefix } = require('./config.json');
 
 discordBot.on('ready', () => {
