@@ -16,17 +16,17 @@ This project is still under development
 - Unzip it and add its dirctory `[path]ffmpeg\bin` to the Path variable in the System Environment Variables
 ## Config
 * token: discord token
+* prefix: discord prefix
 * youtubeToken: youtube token to search and get video links
 ## Commands
-* 'on : Turn the radio on, the bot will join your audio channel
-* 'add : add youtube links to the queue
-* 'remove : remove youtube links to the queue
-* 'play : play songs
-* 'next : skip to next song
-* 'prev : go to previous song
-* 'queue : get the queue list
-* 'current : show what is currently playing
-* 'off : turn the readio off, bot will leave the channel
-* 'help : explore all commands
+* -play x or -p x: play a song using YouTube title/link, add songs to the queue
+* -next or -n: play the next song in the queue
+* -back or -b: play the previous song in the queue
+* -stop or -s: stop playing song
+* -delete x or -d x: remove a song from the queue at index x
+* -queue or -q: show the queue
+* -repeat or -r: repeat currently playing song
+* -loop or -l: repeat the whole queue
+* -current or -c: show currently playing song
 ## Running the bot
 `node radio.js`
