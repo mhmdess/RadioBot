@@ -1,7 +1,8 @@
 # RadioBot
 
 🤖 A music discord bot
-This project is still under development
+
+*This project is still under development
 
 ## Install node.js
 ### On Ubuntu
