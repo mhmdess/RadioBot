@@ -8,7 +8,7 @@
     "lint": "eslint --ext js ./lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "github.com/mhmdess",
   "license": "MIT",
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
